@@ -6,17 +6,17 @@ from pyrogram.types import Message
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils.database import (
+from MecoMusic import app
+from MecoMusic import SUDOERS
+from MecoMusic.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from AnonXMusic.utils.decorators.language import language
-from AnonXMusic.utils.formatters import alpha_to_int
+from MecoMusic.utils.decorators.language import language
+from MecoMusic.utils.formatters import alpha_to_int
 from config import adminlist, CACHE_DURATION, CACHE_SLEEP ,file_cache, autoclean
 
 IS_BROADCASTING = False
@@ -119,7 +119,7 @@ async def braodcast_message(client, message:Message, _):
     if "-assistant" in message.text:
         aw = await message.reply_text(_["broad_5"])
         text = _["broad_6"]
-        from AnonXMusic.core.userbot import assistants
+        from MecoMusic.core.userbot import assistants
 
         for num in assistants:
             sent = 0
