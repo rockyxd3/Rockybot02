@@ -7,7 +7,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
 from MecoMusic import app
-from MecoMusic import SUDOERS
+from MecoMusic.misc import SUDOERS
 from MecoMusic.utils.database import (
     get_active_chats,
     get_authuser_names,
