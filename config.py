@@ -37,7 +37,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002715747653))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6221699441))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "MrRockytg")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_MAHAKAL_BHAKT_II")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", str(OWNER_ID)).split()))
 
