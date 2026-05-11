@@ -82,7 +82,7 @@ def aq_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="α∂∂ мє",
-                url="https://t.me/ChaahatMusicBot?startgroup=true",
+                url="https://t.me/ruchimusicrebot?startgroup=true",
                 icon_custom_emoji_id=5395476176527447827,
                 style=ButtonStyle.SUCCESS
                 
